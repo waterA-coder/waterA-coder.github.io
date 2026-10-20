@@ -1,4 +1,12 @@
-# waterA-coder.github.io
+# 我的 STM32 OLED 项目开发记录
+
+## 项目简介
+这是一个基于 STM32F10x 芯片的开发项目，主要实现了 OLED 屏幕显示和按键交互功能。包含主界面、参数设置和休眠三个状态。
+
+## 核心代码
+以下是项目的核心控制代码：
+
+```c
 My personal blog
 #include "stm32f10x.h"                  // Device header
 #include "Delay.h"
@@ -40,3 +48,4 @@ int main(void)
 		}
 	}
 }
+```
