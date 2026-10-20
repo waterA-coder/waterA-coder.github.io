@@ -7,7 +7,6 @@
 以下是项目的核心控制代码：
 
 ```c
-My personal blog
 #include "stm32f10x.h"                  // Device header
 #include "Delay.h"
 #include "OLED.h"
