@@ -8,8 +8,6 @@
 ## 核心代码
 以下是项目的核心控制代码：
 ```c
-#include "stm32f10x.h"  // Device header
-// ... 下面是你原本的代码 ...
 #include "stm32f10x.h"                  // Device header
 #include "Delay.h"
 #include "OLED.h"
